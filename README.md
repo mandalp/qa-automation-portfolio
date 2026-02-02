@@ -3,7 +3,7 @@
 ## 🎯 Purpose of this Repository
 
 This repository is a **QA Automation portfolio** created to demonstrate
-best practices in **Cypress test automation**, using the WebDojo application
+best practices in **Cypress test automation**, using the **WebDojo** application
 as a testing playground.
 
 The focus of this project is:
@@ -14,38 +14,100 @@ The focus of this project is:
 - Gherkin / BDD examples for test readability
 - API testing and validation using Cypress
 
+---
+
 ## 🧠 What Was Implemented
 
 This repository includes practical examples of:
 
-- Cypress end-to-end tests with clear Arrange / Act / Assert structure
+- Cypress end-to-end tests following the Arrange / Act / Assert pattern
 - Page Object pattern for UI abstraction
-- Custom Cypress commands
-- Dynamic data handling and validations
+- Custom Cypress commands for reusable actions
+- Utility/helper functions for shared logic
+- Dynamic data handling and assertions
 - Input masking validation (CPF / CNPJ, phone, etc.)
-- Radio and checkbox group validation
-- Error message validation strategies
+- Radio button and checkbox group validation
+- Error and validation message strategies
+- API tests with request and response validation
+- Integration between API and UI tests when applicable
 - BDD scenarios using Gherkin (feature files)
 - Improved test maintainability and scalability
-- API tests covering request validation and response assertions
-- Integration between API and UI tests when applicable
 
-## 🗂️ Test Data
+---
 
-Some test data and fixtures were intentionally modified or created
-to support automated test scenarios and portfolio demonstrations.
-These changes are not intended to alter the original business logic
-of the application.
+## 📁 Project Structure
 
-## 🙏 Original Project
+```text
+cypress/
+├── docs/
+│   └── bdd/
+│       ├── cep-search.feature
+│       ├── consultancy.feature
+│       └── github-profiles.feature
+│
+├── e2e/
+│   └── Cypress end-to-end tests
+│
+├── fixtures/
+│   ├── cep.json
+│   ├── consultancy.json
+│   ├── githubProfiles.json
+│   ├── users.json
+│   └── document.pdf
+│
+├── pages/
+│   └── Page Objects
+│
+├── support/
+│   ├── actions/
+│   │   ├── consultancy.actions.js
+│   │   ├── github.actions.js
+│   │   └── cep.actions.js
+│   ├── commands.js
+│   ├── e2e.js
+│   └── utils.js
+```
 
-This project is based on **WebDojo** ([repository Git](https://github.com/ninjadocypress/webdojo)), an application created exclusively
-for students of the **Curso Ninja do Cypress**, taught by **Fernando Papito**.
+---
 
-Original repository and credits remain with the author.
-This fork is used **only for educational and portfolio purposes**.
+## ▶️ Running the WebDojo Application
+
+The WebDojo application is located in the **same repository**.
+
+Before executing the tests, start the application with:
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+http://localhost:3000
+
+---
+
+## ▶️ Running the Automated Tests
+
+```bash
+npm test
+```
+
+```bash
+npm run open
+```
+
+```bash
+npm run cy:chrome
+```
+
+```bash
+npm run test:login:mobile
+```
+
+---
 
 ## 👩‍💻 About the Author
 
-This repository is part of my professional portfolio as a QA Engineer,
-showcasing real-world Cypress automation techniques and test design patterns.
+This repository is part of my **professional QA Engineer portfolio**,
+showcasing real-world Cypress automation techniques,
+including UI and API testing.
