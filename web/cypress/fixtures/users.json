@@ -1,0 +1,20 @@
+{
+  "validUser": {
+    "email": "papito@webdojo.com",
+    "password": "katana123",
+    "name": "Fernando Papito",
+    "welcomeMessage": "Olá QA, esse é o seu Dojo para aprender Automação de Testes."
+  },
+  "invalidUsers": [
+    {
+      "scenario": "invalid password",
+      "email": "papito@webdojo.com",
+      "password": "wrongpassword"
+    },
+    {
+      "scenario": "invalid email",
+      "email": "invalid@webdojo.com",
+      "password": "katana123"
+    }
+  ]
+}

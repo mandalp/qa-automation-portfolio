@@ -1,0 +1,24 @@
+{
+  "profiles": [
+    {
+      "name": "My Profile",
+      "username": "myprofile",
+      "profile": "Developer"
+    },
+    {
+      "name": "Quality Analyst",
+      "username": "qa.user",
+      "profile": "QA"
+    },
+    {
+      "name": "Product Owner",
+      "username": "product.owner",
+      "profile": "PO"
+    },
+    {
+      "name": "Tech Lead",
+      "username": "tech.lead",
+      "profile": "Tech Lead"
+    }
+  ]
+}

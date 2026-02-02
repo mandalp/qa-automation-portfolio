@@ -1,39 +1,51 @@
-# 🥋 WebDojo
+# 🧪 Cypress QA Portfolio (based on WebDojo)
 
-![WebDojo Cover](.github/cover.png)
+## 🎯 Purpose of this Repository
 
-## 🚀 Sobre o Projeto
+This repository is a **QA Automation portfolio** created to demonstrate
+best practices in **Cypress test automation**, using the WebDojo application
+as a testing playground.
 
-O **WebDojo** é um aplicativo exclusivo para os alunos do **Curso Ninja do Cypress**, ministrado pelo mestre **Fernando Papito**! 🥷💻 Ele foi criado para ser um **campo de treinamento prático**, onde os alunos podem aprimorar suas habilidades em automação de testes com desafios e exercícios focados no **Cypress**.
+The focus of this project is:
+- Test automation with Cypress
+- Clean code and test organization
+- Application of testing patterns (Page Object, custom commands, helpers)
+- Realistic test scenarios (positive and negative)
+- Gherkin / BDD examples for test readability
+- API testing and validation using Cypress
 
-🛠️ Tecnologias Utilizadas
+## 🧠 What Was Implemented
 
-- [x] Git & GitHub 🌍 (Controle de versão e repositório remoto)
-- [x] Bash (Linha de Comando) 💻 (Execução de scripts e comandos)
-- [x] Visual Studio Code 🖥️ (Editor de código recomendado)
-- [x] Node.js (22+) 🟢 (Runtime JavaScript)
-- [x] Gerenciador de pacotes (npm ou yarn) 📦 (Dependências do projeto)
-- [x] Cypress 🧪 (Framework de testes end-to-end)
-- [x] Docker & Docker Compose 🐳 (Ambiente isolado para execução)
-- [x] PostgreSQL 🗄 (Banco de dados relacional)
-- [x] Use Bruno 🔌 (Cliente de API para testes de requisições)
+This repository includes practical examples of:
 
-## 📖 Como Usar
+- Cypress end-to-end tests with clear Arrange / Act / Assert structure
+- Page Object pattern for UI abstraction
+- Custom Cypress commands
+- Dynamic data handling and validations
+- Input masking validation (CPF / CNPJ, phone, etc.)
+- Radio and checkbox group validation
+- Error message validation strategies
+- BDD scenarios using Gherkin (feature files)
+- Improved test maintainability and scalability
+- API tests covering request validation and response assertions
+- Integration between API and UI tests when applicable
 
-As instruções detalhadas de instalação e uso do **WebDojo** estão disponíveis dentro do **Curso Ninja do Cypress**.
+## 🗂️ Test Data
 
-🔗 **Acesse o curso e seja Ninja da Automação em Cypress!** 👉 [ninjadocypress.com.br](https://ninjadocypress.com.br)
+Some test data and fixtures were intentionally modified or created
+to support automated test scenarios and portfolio demonstrations.
+These changes are not intended to alter the original business logic
+of the application.
 
-## ⚠️ Contribuição
+## 🙏 Original Project
 
-O **WebDojo** é um ambiente **exclusivo** para os alunos do **Curso Ninja do Cypress**, e por isso, **não aceita contribuições externas**.
+This project is based on **WebDojo** ([repository Git](https://github.com/ninjadocypress/webdojo)), an application created exclusively
+for students of the **Curso Ninja do Cypress**, taught by **Fernando Papito**.
 
-📢 Para suporte e dúvidas, utilize os canais oficiais do curso!
+Original repository and credits remain with the author.
+This fork is used **only for educational and portfolio purposes**.
 
-## 🔒 Licença
+## 👩‍💻 About the Author
 
-Este projeto é **exclusivo para alunos** do **Curso Ninja do Cypress**. 🚫 O compartilhamento ou distribuição sem autorização é proibido.
-
-------
-
-💙 Feito com dedicação e muito café por **Fernando Papito** e a equipe do **Curso Ninja do Cypress**. 🚀🔥
+This repository is part of my professional portfolio as a QA Engineer,
+showcasing real-world Cypress automation techniques and test design patterns.

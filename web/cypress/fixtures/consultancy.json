@@ -1,0 +1,38 @@
+{
+  "personal": {
+    "name": "Fernando Papito",
+    "email": "fernando@webdojo.com",
+    "phone": "11999999999",
+    "consultancyType": "Individual",
+    "personType": "Pessoa Física",
+    "document": "12345678901",
+    "discoveryChannels": [
+      "Instagram",
+      "LinkedIn",
+      "YouTube"
+    ],
+    "details": "Preciso de consultoria para meu projeto pessoal.",
+    "technologies": [
+      "JavaScript",
+      "Python",
+      "Java"
+    ],
+    "documentPath": "cypress/fixtures/document.pdf",
+    "terms": true
+  },
+  "company": {
+    "name": "Fernando Papito",
+    "email": "fernando@webdojo.com",
+    "phone": "11999999999",
+    "consultancyType": "In Company",
+    "personType": "Pessoa Jurídica",
+    "document": "12345678000199",
+    "discoveryChannels": [
+      "LinkedIn"
+    ],
+    "details": "Preciso de consultoria para meu projeto pessoal.",
+    "technologies": "Cypress",
+    "documentPath": "cypress/fixtures/document.pdf",
+    "terms": true
+  }
+}
