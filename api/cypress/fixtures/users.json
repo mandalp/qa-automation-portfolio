@@ -1,0 +1,54 @@
+{
+  "hp": [
+    {
+      "name": "Harry Potter",
+      "email": "harry.potter@hogwarts.com",
+      "password": "pwd123"
+    },
+    {
+      "name": "Hermione Granger",
+      "email": "hermione.granger@hogwarts.com",
+      "password": "pwd123"
+    },
+    {
+      "name": "Ron Weasley",
+      "email": "ron.weasley@hogwarts.com",
+      "password": "pwd123"
+    },
+    {
+      "name": "Draco Malfoy",
+      "email": "draco.malfoy@slytherin.com",
+      "password": "pwd123"
+    },
+    {
+      "name": "Luna Lovegood",
+      "email": "luna.lovegood@ravenclaw.com",
+      "password": "pwd123"
+    },
+    {
+      "name": "Neville Longbottom",
+      "email": "neville.longbottom@hogwarts.com",
+      "password": "pwd123"
+    },
+    {
+      "name": "Ginny Weasley",
+      "email": "ginny.weasley@hogwarts.com",
+      "password": "pwd123"
+    },
+    {
+      "name": "Sirius Black",
+      "email": "sirius.black@order.com",
+      "password": "pwd123"
+    },
+    {
+      "name": "Remus Lupin",
+      "email": "remus.lupin@order.com",
+      "password": "pwd123"
+    },
+    {
+      "name": "Minerva McGonagall",
+      "email": "minerva.mcgonagall@hogwarts.com",
+      "password": "pwd123"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+meta {
+  name: Create New User
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3333/api/users/register
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "name": "Bruce",
+    "email": "bruce0@teste.com",
+    "password": "tetetete"
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

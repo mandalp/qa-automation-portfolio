@@ -29,6 +29,7 @@ import './actions/consultancy.actions'
 import './actions/github.actions'
 import './actions/cep.actions'
 import './actions/login.actions'
+import './actions/signup.actions'
 import '../pages/loginPage'
 
 import {validUser} from '../fixtures/users.json'
@@ -45,6 +46,16 @@ Cypress.Commands.add('goTo', (buttonName, pageTitle) => {
         .click()
 
     cy.contains('h1', pageTitle)
+        .should('be.visible')
+})
+
+Cypress.Commands.add('goToSignup', (linkName, pageTitle) => {
+    cy.start()
+    cy.get(linkName)
+        .should('be.visible')
+        .click()
+
+    cy.contains('h2', pageTitle)
         .should('be.visible')
 })
 
