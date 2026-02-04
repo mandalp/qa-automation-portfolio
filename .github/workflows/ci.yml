@@ -40,9 +40,11 @@ jobs:
       - name: Start API
         working-directory: api
         run: |
-          echo "Starting API..."
-          npm run dev &
-          sleep 5
+          npm run start:ci &
+          sleep 10
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          PORT: 3333
 
       # ======================
       # WEB
