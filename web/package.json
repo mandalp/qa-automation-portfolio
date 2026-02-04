@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "vite build",          // ou react-scripts build
+    "build": "vite build",      
     "start:ci": "serve -s dist -l 3000",
     "dev": "vite",
     "test": "npx cypress run --config viewportWidth=1440,viewportHeight=900",
