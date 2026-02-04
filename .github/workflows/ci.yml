@@ -94,10 +94,7 @@ jobs:
         with:
           working-directory: web
           browser: chrome
-          record: true
-          parallel: true
           spec: ${{ github.event.inputs.spec }}
         env:
           CYPRESS_baseUrl: http://localhost:3000
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
